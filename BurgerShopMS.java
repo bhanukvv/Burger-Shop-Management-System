@@ -158,7 +158,7 @@ class Home extends JFrame{
 		Rightpanel.add(Exitbtn);
 		Exitbtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//
+				 System.exit(0);
 			}
 		});
 		add(Rightpanel);
